@@ -351,7 +351,6 @@ a {
   .footer a {
     text-decoration: none; }
   .footer__content {
-    margin-bottom: 100px;
     display: flex;
     padding: 28px 52px; }
   .footer__item:first-child {
@@ -367,6 +366,7 @@ a {
   .footer__item + .footer__item {
     margin-left: 100px; }
   .footer__contact {
+    margin-top: 100px;
     padding: 0 52px 29px;
     display: flex; }
     .footer__contact p {

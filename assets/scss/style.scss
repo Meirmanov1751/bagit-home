@@ -432,7 +432,6 @@ a{
     text-decoration: none;
   }
   &__content{
-    margin-bottom: 100px;
     display: flex;
     padding: 28px 52px;
   }
@@ -453,6 +452,7 @@ a{
     margin-left: 100px;
   }
   &__contact{
+    margin-top: 100px;
     padding: 0 52px 29px;
     display: flex;
     p{
