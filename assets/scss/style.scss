@@ -990,8 +990,6 @@ a{
       margin-top: 42px;
     }
   }
-
-
   .about{
     &__title{
       font-size: 40px;
@@ -1003,6 +1001,9 @@ a{
       line-height: 22px;
       text-align: left;
     }
+  }
+  .about__img--right,.about__img--left{
+    display: none;
   }
   .about__top{
     &--box{
@@ -1028,6 +1029,7 @@ a{
       &::before{
         content: " ";
         margin: 41px auto 20px;
+
         display: block;
         max-width: 886px;
         height: 1px;
