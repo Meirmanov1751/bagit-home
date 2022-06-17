@@ -962,13 +962,13 @@ a{
     margin: 0 40px;
 
     .header__title{
-      font-size: 40px;
-      line-height: 43px;
+      font-size: 30px;
+      line-height: 31px;
 
     }
     .header__subtitle{
-      font-size: 22px;
-      line-height: 27px;
+      font-size: 18px;
+      line-height: 23px;
     }
 
     .header__btn{
@@ -1007,7 +1007,7 @@ a{
   }
   .about__top{
     &--box{
-      height: 330px;
+      height: 380px;
     }
     &--img{
       ul{
@@ -1167,5 +1167,38 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+}
+@media (max-width: 400px) {
+  .menu{
+    height: 60px;
+  }
+  .menu__items {
+    font-size: 10px;
+    line-height: 11px;
+    margin-left: 5px;
+
+    a {
+      font-size: 10px;
+      line-height: 11px;
+      color: #FFFFFF;
+    }
+  }
+  .header__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 40px;
+
+    .header__title{
+      font-size: 27px;
+      line-height: 29px;
+
+    }
+    .header__subtitle{
+      font-size: 16px;
+      line-height: 21px;
+    }
   }
 }
