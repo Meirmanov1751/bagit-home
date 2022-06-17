@@ -910,7 +910,6 @@ a{
 @media (max-width: 600px) {
   .container{
     max-width: 600px;
-
   }
   .logo{
     width: 60px;
@@ -1126,12 +1125,16 @@ a{
   }
   .footer{
     h3{
-      font-size: 12px;
-      line-height: 13px;
+      font-size: 11px;
+      line-height: 12px;
     }
     li{
       font-size: 10px;
       line-height: 12px;
+      a{
+        font-size: 10px;
+        line-height: 12px;
+      }
     }
     &__content{
       padding: 28px 22px;

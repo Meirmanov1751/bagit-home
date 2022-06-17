@@ -850,11 +850,14 @@ a {
           font-size: 12px; }
 
   .footer h3 {
-    font-size: 12px;
-    line-height: 13px; }
+    font-size: 11px;
+    line-height: 12px; }
   .footer li {
     font-size: 10px;
     line-height: 12px; }
+    .footer li a {
+      font-size: 10px;
+      line-height: 12px; }
   .footer__content {
     padding: 28px 22px; }
   .footer__item:first-child {
