@@ -408,8 +408,8 @@ a{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 22px;
     margin-bottom: 30px;
 
     color: #FFFFFF;
@@ -422,8 +422,8 @@ a{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 19px;
     margin-bottom: 14px;
 
     color: #FFFFFF;
@@ -432,6 +432,7 @@ a{
     text-decoration: none;
   }
   &__content{
+    margin-bottom: 100px;
     display: flex;
     padding: 28px 52px;
   }
@@ -440,8 +441,8 @@ a{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 22px;
 
     color: #FFFFFF;
     p:first-child{
@@ -458,14 +459,14 @@ a{
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 19px;
       text-align: center;
 
       color: #FFFFFF;
     }
     p+p{
-      margin-left: 30px;
+      margin-left: 15px;
     }
   }
 }
@@ -902,8 +903,5 @@ a{
         }
       }
     }
-  }
-  .footer{
-    display: none;
   }
 }
