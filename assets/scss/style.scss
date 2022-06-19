@@ -909,7 +909,7 @@ a{
 
 @media (max-width: 600px) {
   .container{
-    max-width: 600px;
+    padding: 0 10px;
   }
   .logo{
     width: 60px;
@@ -1018,12 +1018,12 @@ a{
       }
       li{
         img{
-          max-width: 45px;
+          max-width: 78px;
         }
         h3{
-          font-size: 6px;
-          max-width: 40px;
-          line-height: 8px;
+          font-size: 11px;
+          max-width: 80px;
+          line-height: 13px;
         }
       }
 
